@@ -1,0 +1,238 @@
+﻿
+
+.ix-eyebrow, .ed-eyebrow, .inner-eyebrow {
+  color: var(--gold-dk) !important;
+}
+
+.page-hero {
+  background: var(--grad-hero) !important;
+  position: relative;
+  overflow: hidden;
+}
+.page-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(201,168,76,.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+}
+.page-hero .eyebrow { color: var(--gold) !important; }
+
+.ix-accent { color: var(--gold) !important; }
+.ix-accent::after { background: var(--gold) !important; }
+.ix-dot { background: var(--gold) !important; }
+.ix-mnum { color: var(--gold) !important; }
+
+.ix-svc-card {
+  background: var(--grad-card) !important;
+  border-color: var(--gray-200) !important;
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease !important;
+}
+.ix-svc-card:hover {
+  border-color: var(--gold-20) !important;
+  box-shadow: 0 16px 48px rgba(26,58,107,.12) !important;
+}
+.ix-svc-badge {
+  background: var(--grad-blue) !important;
+}
+.ix-svc-badge-coral {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+}
+.ix-svc-links a:hover {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+.ix-svc-links a:hover i { color: var(--gold-dk) !important; }
+
+.ix-conv-card::before { background: var(--grad-gold) !important; }
+.ix-conv-card:hover { border-color: var(--gold-20) !important; }
+.ix-conv-sigla { color: var(--blue) !important; }
+
+.ix-why-card::before { background: var(--grad-gold) !important; }
+
+.ix-loc-icon {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+
+.ix-services { background: var(--bg-soft) !important; }
+.ix-convenios { background: #fff !important; }
+.ix-why { background: var(--bg-soft) !important; }
+.ix-location { background: #fff !important; }
+
+.inner-hero-indigo {
+  background: linear-gradient(135deg, #060A14 0%, #0D1428 40%, #1A3A6B 100%) !important;
+}
+.inner-hero-coral {
+  background: linear-gradient(135deg, #060A14 0%, #0D1428 40%, #A07830 100%) !important;
+}
+.inner-hero-green {
+  background: linear-gradient(135deg, #060A14 0%, #0D1428 40%, #065f46 100%) !important;
+}
+.inner-hero-purple {
+  background: linear-gradient(135deg, #060A14 0%, #0D1428 40%, #1A3A6B 100%) !important;
+}
+
+.inner-card:hover {
+  border-color: var(--gold-20) !important;
+  box-shadow: 0 12px 40px rgba(26,58,107,.12) !important;
+}
+.inner-card-icon.indigo {
+  background: var(--blue-50) !important;
+  color: var(--blue) !important;
+}
+
+.inner-cta-strip {
+  background: var(--grad-hero) !important;
+  position: relative;
+  overflow: hidden;
+}
+.inner-cta-strip::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(201,168,76,.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+
+.inner-plan-card.highlight {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 0 3px var(--gold-10), var(--shadow-gold) !important;
+}
+.inner-plan-badge {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+}
+.inner-plan-price { color: var(--blue) !important; }
+.inner-plan-features li i { color: var(--gold-dk) !important; }
+
+.inner-filter-btn.active,
+.inner-filter-btn:hover {
+  background: var(--grad-gold) !important;
+  border-color: var(--gold) !important;
+  color: var(--night) !important;
+}
+.inner-curso-precio { color: var(--blue) !important; }
+
+.qs-stats-bar { background: var(--grad-hero) !important; }
+.qs-stat-num { color: var(--gold) !important; }
+
+.pc-sidebar-nav a.active,
+.pp-sidebar-nav a.active,
+.pd-sidebar-nav a.active {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+  border-left-color: var(--gold) !important;
+}
+.pc-sidebar-nav a:hover,
+.pp-sidebar-nav a:hover,
+.pd-sidebar-nav a:hover {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+
+.faq-item.open {
+  border-color: var(--gold) !important;
+  box-shadow: 0 4px 20px var(--gold-10) !important;
+}
+.faq-item.open .faq-toggle-icon {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+}
+.faq-question-number {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+
+.gf-btn.active {
+  background: var(--grad-gold) !important;
+  border-color: var(--gold) !important;
+  color: var(--night) !important;
+}
+
+.ct-channel-icon.ct-icon-coral {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+}
+.ct-channel-icon.ct-icon-indigo {
+  background: var(--grad-blue) !important;
+}
+.ct-submit {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+  font-weight: 700 !important;
+}
+.ct-submit:hover {
+  filter: brightness(1.08) !important;
+  transform: translateY(-2px) !important;
+}
+
+.lr-step.active .lr-step-num {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+}
+.lr-btn-primary {
+  background: var(--grad-gold) !important;
+  color: var(--night) !important;
+  font-weight: 700 !important;
+}
+.lr-btn-primary:hover {
+  filter: brightness(1.08) !important;
+  transform: translateY(-2px) !important;
+}
+
+.mkt-tag { color: var(--gold) !important; }
+.mkt-dot { background: var(--gold) !important; }
+.mkt-pill {
+  border-color: var(--gold-20) !important;
+  color: var(--gold-lt) !important;
+}
+
+::-webkit-scrollbar-thumb { background: var(--gold-dk) !important; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold) !important; }
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.btn-coral, .btn-indigo {
+  background-size: 200% auto;
+}
+.btn-coral:hover, .btn-indigo:hover {
+  animation: shimmer .8s linear;
+}
+
+.conv-modal-box {
+  background: rgba(255,255,255,.92) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--gold-20) !important;
+  box-shadow: 0 24px 64px rgba(26,58,107,.2) !important;
+}
+#convSigla { color: var(--blue) !important; }
+
+.ld-bar-fill {
+  background: linear-gradient(to right, var(--gold-dk), var(--gold), var(--gold-lt)) !important;
+}
+
+.ix-section-head .ix-eyebrow,
+.ed-section-head .ed-eyebrow,
+.ns-chip {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+
+.ix-why-card:hover { border-color: var(--gold-20) !important; }
+
+.inner-process-icon {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+.inner-process-icon.coral {
+  background: var(--gold-10) !important;
+  color: var(--gold-dk) !important;
+}
+.inner-process-num { color: var(--gold-dk) !important; }
