@@ -27,7 +27,5 @@ back-end/uploads/
 # Vite cache
 horus-react/.vite/
 
-# Images (stored separately, not in git)
-horus-react/src/assets/images/
-horus-react/public/galeria/
-horus-react/public/favicon.svg
+# Favicon (auto-generated)
+# horus-react/public/favicon.svg
